@@ -3,20 +3,24 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="styles.css">
-    <title></title>
+    <script src="scripts/jquery-3.1.0.js" charset="utf-8"></script>
+    <script src="scripts/main.js" charset="utf-8"></script>
+    <title>Cubes for all!</title>
   </head>
   <body>
-    <p id="red">Total red: 0</p>
-    <p id="yellow">Total yellow: 0</p>
-    <p id="green">Total green: 0</p>
-    <p id="blue">Total blue: 0</p>
-    
-    
+
+  <div class="totals">
+    <p id="red">Total red:</p><span id="red-total"></span>
+    <p id="yellow">Total yellow:</p><span id="yellow-total"></span>
+    <p id="green">Total green:</p><span id="green-total"></span>
+    <p id="blue">Total blue:</p><span id="blue-total"></span>
+  </div>
+
     <button class="color-button" data-color="red">Red</button>
     <button class="color-button" data-color="yellow">Yellow</button>
     <button class="color-button" data-color="green">Green</button>
     <button class="color-button" data-color="blue">Blue</button>
-    
+
     <div class="container">
     </div>
   </body>
